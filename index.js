@@ -1,9 +1,9 @@
-let lowers = "abcdefghijklmnopqrstuvwxyz";
-let uppers = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-let numbers = "0123456789";
-let specials = "!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~";
+const lowers = "abcdefghijklmnopqrstuvwxyz";
+const uppers = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+const numbers = "0123456789";
+const specials = "!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~";
 
-let slider = document.getElementById("length");
+const slider = document.getElementById("length");
 let sliderOutput = document.getElementById("len-val");
 let firstPassword = document.getElementById("password-1");
 let secondPassword = document.getElementById("password-2");
